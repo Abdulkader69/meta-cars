@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-const BannerBG = require('../assets/images/banner-bg.jpg');
-const BannerLogo = require('../assets/images/banner-logo.png');
+import BannerBG from '../assets/images/banner-bg.jpg';
+import BannerLogo from '../assets/images/banner-logo.png';
 
 const BannerSection = () => {
   return (
@@ -10,7 +10,7 @@ const BannerSection = () => {
         <div className="w-full max-w-siteContainer mx-auto px-8 xl:pt-[8rem] 2xl:pt-[15rem]">
           <img
             className="w-full max-w-[92rem] max-h-[20rem] m-auto"
-            src={BannerLogo.default.src}
+            src={BannerLogo.src}
             alt="banner-logo"
           />
           <div className="btn text-center mt-5">
@@ -24,7 +24,7 @@ const BannerSection = () => {
       </div>
       <img
         className="absolute w-full h-full object-cover object-top"
-        src={BannerBG.default.src}
+        src={BannerBG.src}
         alt="banner-bg"
       />
     </div>

@@ -6,10 +6,11 @@ import WelcomeSection from '../src/components/WelcomeSection';
 import MintYourCharacter from '../src/components/MintYourCharacter';
 import CTASection from '../src/components/CTASection';
 
-const WelcomeBG = require('../src/assets/images/welcome-bg.jpg');
-const nftLogo = require('../src/assets/images/nft-logo.png');
+import WelcomeBG from '../src/assets/images/welcome-bg.jpg';
+import NftLogo from '../src/assets/images/nft-logo.png';
 
 const Home: NextPage = () => {
+  console.log(WelcomeBG);
   return (
     <div className="mint-page">
       <Head>
@@ -26,7 +27,7 @@ const Home: NextPage = () => {
             <div className="nft-logo mb-14">
               <img
                 className="w-full max-w-[32.8rem] m-auto"
-                src={nftLogo.default.src}
+                src={NftLogo.src}
                 alt="nft-logo"
               />
             </div>
@@ -46,7 +47,7 @@ const Home: NextPage = () => {
         </div>
         <img
           className="absolute w-full h-full object-cover object-top"
-          src={WelcomeBG.default.src}
+          src={WelcomeBG.src}
           alt="banner-bg"
         />
       </div>

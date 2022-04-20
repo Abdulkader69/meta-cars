@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-const footer1 = require('../assets/images/footer-1.png');
-const footer2 = require('../assets/images/footer-2.png');
-const footerLogo = require('../assets/images/footer-logo.png');
+import footer1 from '../assets/images/footer-1.png';
+import footer2 from '../assets/images/footer-2.png';
+import footerLogo from '../assets/images/footer-logo.png';
 
 const Footer = () => {
   return (
@@ -11,16 +11,12 @@ const Footer = () => {
       <div className="divider-2 w-full max-w-[106rem] m-auto h-[.2rem] bg-[#3AACFF] mb-8"></div>
       <div className="top flex items-end justify-between">
         <div className="left w-full max-w-[32rem]">
-          <img
-            className="w-full m-auto"
-            src={footer1.default.src}
-            alt="banner-logo"
-          />
+          <img className="w-full m-auto" src={footer1.src} alt="banner-logo" />
         </div>
         <div className="middle relative">
           <img
             className="w-full m-auto"
-            src={footerLogo.default.src}
+            src={footerLogo.src}
             alt="banner-logo"
           />
           <ul className="social-link absolute bottom-[10rem] left-0 right-0 m-auto w-max border-[.08rem] border-solid border-white flex items-center justify-center bg-[#28292E]">
@@ -153,11 +149,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="right w-full max-w-[32rem]">
-          <img
-            className="w-full m-auto"
-            src={footer2.default.src}
-            alt="banner-logo"
-          />
+          <img className="w-full m-auto" src={footer2.src} alt="banner-logo" />
         </div>
       </div>
       <div className="bottom font-futura text-white bg-Primary2 text-lg lg:text-[1.8rem] py-3 px-8 text-center">

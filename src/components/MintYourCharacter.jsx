@@ -3,11 +3,11 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-const image1 = require('../assets/images/nftimage1.jpg');
-const image2 = require('../assets/images/nftimage2.jpg');
-const image3 = require('../assets/images/nftimage3.jpg');
-const image4 = require('../assets/images/nftimage.jpg');
-const eth = require('../assets/images/etheriam.png');
+import image1 from '../assets/images/nftimage1.jpg';
+import image2 from '../assets/images/nftimage2.jpg';
+import image3 from '../assets/images/nftimage3.jpg';
+import image4 from '../assets/images/nftimage.jpg';
+import eth from '../assets/images/etheriam.png';
 
 const responsive = {
   desktop: {
@@ -143,7 +143,7 @@ const MintYourCharacter = () => {
               <div className="thumb flex h-[25rem] md:h-[30rem] lg:h-[35rem] overflow-hidden">
                 <img
                   className="w-full m-auto object-cover object-center h-full"
-                  src={e.image.default.src}
+                  src={e.image.src}
                   alt="nft-image"
                 />
               </div>
@@ -160,7 +160,7 @@ const MintYourCharacter = () => {
                     <p className="text-[1.4rem] font-brandon font-extrabold flex items-center justify-end">
                       <img
                         className="w-auto mr-1"
-                        src={eth.default.src}
+                        src={eth.src}
                         alt="nft-image"
                       />
                       {e.price}

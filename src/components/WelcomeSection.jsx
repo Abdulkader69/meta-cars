@@ -1,5 +1,5 @@
 import React from 'react';
-const welcomeRight = require('../assets/images/welcome-right.png');
+import welcomeRight from '../assets/images/welcome-right.png';
 
 const WelcomeSection = () => {
   return (
@@ -21,16 +21,16 @@ const WelcomeSection = () => {
             is the time to make our dream reality by creating a community of car
             enthusiasts. MetaCars is a proprietary, hyper deflationary token on
             the Binance Smart Chain network. MetaCars is not just a regular
-            token, it's a token that collects all cartoon cars lovers in one
-            community. Moreover, it offers them different kinds of NFTs to be
-            used in Metaverse and the carton cars are converted into a Metaverse
-            GAME.{' '}
+            token, it&apos;s a token that collects all cartoon cars lovers in
+            one community. Moreover, it offers them different kinds of NFTs to
+            be used in Metaverse and the carton cars are converted into a
+            Metaverse GAME.{' '}
           </p>
         </div>
         <div className="w-full md:w-[40%] md:pl-8">
           <img
             className="w-full m-auto"
-            src={welcomeRight.default.src}
+            src={welcomeRight.src}
             alt="nft-logo"
           />
         </div>

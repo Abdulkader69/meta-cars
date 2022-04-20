@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-const Logo = require('../assets/images/meta-cars-logo.png');
+import Logo from '../assets/images/meta-cars-logo.png';
 
 const CTASection = () => {
   return (
@@ -159,7 +159,7 @@ const CTASection = () => {
         <div className="middle w-full md:w-auto mb-12 md:mb-0">
           <img
             className="w-full max-w-[15rem] m-auto"
-            src={Logo.default.src}
+            src={Logo.src}
             alt="nft-image"
           />
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-const Logo = require('../assets/images/meta-cars-logo.png');
+import Logo from '../assets/images/meta-cars-logo.png';
 
 export default function Header() {
   const router = useRouter();
@@ -45,7 +45,7 @@ export default function Header() {
               >
                 <img
                   className="w-full max-w-[10rem] m-auto"
-                  src={Logo.default.src}
+                  src={Logo.src}
                   alt="logo"
                 />
               </a>

@@ -1,15 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
-const NftImage = require('../assets/images/nftimage.jpg');
-const ClaimBG = require('../assets/images/claim-bg.jpg');
-const Etheriam = require('../assets/images/etheriam.png');
+import NftImage from '../assets/images/nftimage.jpg';
+import ClaimBG from '../assets/images/claim-bg.jpg';
+import Etheriam from '../assets/images/etheriam.png';
 
 const ClaimYourNFTs = () => {
   return (
     <div className="claim-your-nfts relative flex items-center justify-center">
       <img
         className="absolute object-cover object-center w-full m-auto opacity-[60%]"
-        src={ClaimBG.default.src}
+        src={ClaimBG.src}
         alt="nft-image"
       />
       <div className="welcome-area mb-[15rem] z-20">
@@ -34,8 +34,9 @@ const ClaimYourNFTs = () => {
                   users, with their requests driving our development and
                   reinforcing MetaCars NFT & MetaCars Game. To guarantee a
                   healthy smart contract, free from any malicious function, we
-                  will audit the MetaCars token contract address from "CertiK"
-                  which will ensure investors who want to invest in MetaCars.
+                  will audit the MetaCars token contract address from
+                  &quot;CertiK&quot; which will ensure investors who want to
+                  invest in MetaCars.
                 </p>
                 <p className="flex items-center justify-end cursor-pointer text-[1.8rem] lg:text-[2.4rem] text-white font-futuralite leading-[1.4] text-opacity-90 shadow-text">
                   More Info
@@ -80,7 +81,7 @@ const ClaimYourNFTs = () => {
               <div className="item border-2 border-solid border-[#404040] p-4 bg-[#1D1D1D]">
                 <img
                   className="w-full m-auto"
-                  src={NftImage.default.src}
+                  src={NftImage.src}
                   alt="nft-image"
                 />
                 <div className="details p-2">
@@ -91,7 +92,7 @@ const ClaimYourNFTs = () => {
                     Price 0.04{' '}
                     <img
                       className="w-[13px]"
-                      src={Etheriam.default.src}
+                      src={Etheriam.src}
                       alt="nft-image"
                     />{' '}
                     per NFT
