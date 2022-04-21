@@ -205,3 +205,14 @@ a {
     bottom: 30px;
   }
 }
+@media screen and (max-width: 640px) {
+  .header-logo {
+    position: absolute;
+    top: -45px;
+    width: 70px;
+    padding-right: 10px;
+  }
+  header#main-header {
+    padding-top: 50px;
+  }
+}

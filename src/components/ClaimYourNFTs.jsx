@@ -12,18 +12,18 @@ const ClaimYourNFTs = () => {
         src={ClaimBG.src}
         alt="nft-image"
       />
-      <div className="welcome-area mb-[15rem] z-20">
+      <div className="welcome-area mb-[8rem] md:mb-[15rem] z-20">
         <div className="w-full max-w-siteContainer mx-auto px-8">
           <div className="top">
             <div className="title mb-7">
-              <h2 className="font-brandon text-white text-[2.5rem] lg:text-[4rem] leading-[1.6] font-extrabold">
+              <h2 className="font-brandon text-white text-[2.5rem] lg:text-[4rem] leading-[1.6] font-extrabold pl-4 md:pl-0">
                 Claim your NFT’s
               </h2>
             </div>
           </div>
           <div className="row flex flex-wrap">
             <div className="w-full md:w-[60%] mb-14 md:mb-0">
-              <div className="w-full bg-black bg-opacity-40 py-5 pl-8 pr-4 md:-ml-8">
+              <div className="w-full bg-black bg-opacity-40 py-5 pl-4 md:pl-8 pr-4 md:-ml-8">
                 <p className="text-[1.8rem] lg:text-[2.4rem] text-white font-futuralite leading-[1.4] text-opacity-90 shadow-text">
                   Our team aims to bring in MetaCars community all car lovers
                   and racing gamers, and this will happen by organizing events
@@ -99,33 +99,33 @@ const ClaimYourNFTs = () => {
                   </p>
                   <div className="divider w-full h-[2px] bg-[#515151]" />
                   <div className="flex items-center justify-between py-8">
-                    <div className="left text-[#9DA6AC] text-[2.4rem] font-futura">
+                    <div className="left text-[#9DA6AC] text-[1.6rem] lg:text-[2.4rem] font-futura">
                       <span className="text-white pr-1">-</span> 1{' '}
                       <span className="text-white pl-1">+</span>
                     </div>
-                    <div className="middle text-[2.4rem] text-[#9DA6AC] font-futura">
+                    <div className="middle text-[1.6rem] lg:text-[2.4rem] text-[#9DA6AC] font-futura">
                       Mints
                     </div>
-                    <div className="right text-[2.4rem] text-[#3AACFF] font-futura">
+                    <div className="right text-[1.6rem] lg:text-[2.4rem] text-[#3AACFF] font-futura">
                       10 Max
                     </div>
                   </div>
                   <div className="divider w-full h-[2px] bg-[#515151]" />
                   <div className="flex items-center justify-between py-8">
-                    <div className="left text-[#9DA6AC] text-[2.4rem] font-futura">
+                    <div className="left text-[#9DA6AC] text-[1.6rem] lg:text-[2.4rem] font-futura">
                       Total
                     </div>
-                    <div className="middle text-[2.4rem] text-[#9DA6AC] font-futura">
+                    <div className="middle text-[1.6rem] lg:text-[2.4rem] text-[#9DA6AC] font-futura">
                       Mints
                     </div>
-                    <div className="right text-[2.4rem] text-[#3AACFF] font-futura">
+                    <div className="right text-[1.6rem] lg:text-[2.4rem] text-[#3AACFF] font-futura">
                       0.04ETH
                     </div>
                   </div>
                   <div className="divider w-full h-[2px] bg-[#515151]" />
                   <div className="btn py-8 text-center">
                     <Link href="#">
-                      <a className="text-[3.2rem] text-[#3AACFF] font-futura">
+                      <a className="text-[2rem] lg:text-[3.2rem] text-[#3AACFF] font-futura">
                         Buy now
                       </a>
                     </Link>
